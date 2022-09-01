@@ -1,0 +1,65 @@
+header {
+  background: linear-gradient(88.27deg, #574ae8 0%, #3ea1db 100%);
+  height: 250px;
+}
+
+header .container-header {
+  width: 900px;
+  margin: 0 auto;
+  height: 100%;
+  padding: 41px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 73px;
+}
+
+header .row-header {
+  display: flex;
+  gap: 716px;
+}
+
+header .row-header h3 {
+  font-size: 24px;
+  font-family: "LexendDeca";
+  line-height: 30px;
+  font-weight: 400;
+  color: #fff;
+}
+
+header .input-search {
+  display: flex;
+  align-items: center;
+}
+
+header .icon-search::before {
+  content: url(./assets/icon-search.png);
+  position: relative;
+  left: 47px;
+  width: 23.44px;
+  height: 23.44px;
+  display: block;
+}
+
+header input {
+  width: 900px;
+  height: 65px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+  border: none;
+  padding-left: 64px;
+  font-family: "Inter";
+}
+
+header input:focus-visible {
+  border: none;
+  outline: none;
+}
+
+header input::placeholder {
+  color: #fff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  opacity: 0.5;
+}

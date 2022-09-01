@@ -1,0 +1,17 @@
+@font-face {
+  src: url(./assets/fonts/Inter-Regular.ttf);
+  font-family: "Inter";
+  font-weight: normal;
+}
+body {
+  font-family: "Inter";
+}
+
+@font-face {
+  src: url(./assets/fonts/LexendDeca-Regular.ttf);
+  font-family: "LexendDeca";
+  font-weight: normal;
+}
+body {
+  font-family: "LexendDeca";
+}
